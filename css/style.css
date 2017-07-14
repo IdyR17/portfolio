@@ -1,0 +1,16 @@
+/* color palette from W3C
+HEX: #f9d5e5
+HEX: #eeac99
+HEX: #e06377
+HEX: #c83349*/
+body{
+    background-color:#f9d5e5;
+    color:#c83349;
+    padding:5%;
+}
+section{
+    background-color: #eeac99;
+}
+h1{
+    color:#e06377
+}
