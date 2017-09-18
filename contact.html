@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" type="text/css">
@@ -30,14 +31,34 @@
         <h3>General Information</h3>
         <p>I am not currently looking for new design work, but I am available for teaching in exchange for money and food. If you have any questions, please don't hesitate to contact me!</p>
         <p>Please only use phone contact for urgent inquiries. Otherwise, Twitter and email are the best way to reach me.</p>
+              <h2><span class="glyphicon glyphicon-star"></span><a href="https://github.com/IdyR17" target="_top"><i class="fa fa-github"></i></a><span class="glyphicon glyphicon-star"></span><a href="https://freecodecamp.com/IdyR17" target="_blank">FCC</a><span class="glyphicon glyphicon-star"></span><a href="https://linkedin.com/in/idy-r17" target="_top"><i class="fa fa-linkedin"></i></a><span class="glyphicon glyphicon-star"></span><a href="MAILTO:IDYR17@jurhidy.com" target="_top"><span class="glyphicon glyphicon-envelope"></span></a><span class="glyphicon glyphicon-star"></span></h2> 
       </section>
       <section id="secondary">
-        <h3>Contact Details</h3>
-        <ul class="contact-info">
+        <h3>Contact Me</h3>
+        <!-- CONTACT FORM- Input tag, types:text,email, tel, textarea-->
+        <form>
+            <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" >
+            <input placeholder="Your Web Site" type="url" tabindex="4" >
+            </fieldset>
+            <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+        </form>
+
+
+        <!--<ul class="contact-info">
           <li class="phone"><a href="tel:555-6425">555-6425</a></li>
           <li class="mail"><a href="mailto:aditya@incl.us">aditya@incl.us</a></li>
           <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=prezadito">@prezadito</a></li>
-        </ul>
+        </ul>-->
       </section>
 
     <footer >

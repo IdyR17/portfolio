@@ -177,7 +177,14 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
+fieldset{
+  display: inline-block;
+}
 
+form button{
+  color: white;
+  background-color:  #c83349;
+}
 
 /**********************************
 COLORS
@@ -222,4 +229,8 @@ nav a, nav a:visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #c83349;
+}
+
+fieldset{
+  border:none;
 }
